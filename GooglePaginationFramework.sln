@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GooglePaginationFramework", "GooglePaginationFramework\GooglePaginationFramework.csproj", "{6A3F95D2-FF08-453D-AB31-4AA2DC65204D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginationTests", "PaginationTests\PaginationTests.csproj", "{4F096CE9-3286-4999-B035-7C76A9EC3583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6A3F95D2-FF08-453D-AB31-4AA2DC65204D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A3F95D2-FF08-453D-AB31-4AA2DC65204D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A3F95D2-FF08-453D-AB31-4AA2DC65204D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F096CE9-3286-4999-B035-7C76A9EC3583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F096CE9-3286-4999-B035-7C76A9EC3583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F096CE9-3286-4999-B035-7C76A9EC3583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F096CE9-3286-4999-B035-7C76A9EC3583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
