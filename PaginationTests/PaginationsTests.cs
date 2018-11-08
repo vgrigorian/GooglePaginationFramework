@@ -1,5 +1,7 @@
 ﻿using System;
 using GooglePaginationFramework;
+using GooglePaginationFramework.Pages;
+using GooglePaginationFramework.Selenium;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace PaginationTests
@@ -10,16 +12,17 @@ namespace PaginationTests
         [TestMethod]
         public void GoToTheLoginPage()
         {
-            //Get to the home page and
-            Pages.LoginPage.Goto();
-            Assert.IsTrue(Pages.LoginPage.IsAt());
+            //Get to the home page
+            LoginPage.Goto();
+            //Verify the the browser is on the gmail login page
+            Assert.IsTrue(LoginPage.IsAt());
         }
 
+        //Close the browser
         [TestCleanup]
         public void CleanUp()
         {
-            //Close up the browser
-            Browser.Close();
+            Driver.Close();
         }
     }
 }

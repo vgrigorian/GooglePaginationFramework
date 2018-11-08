@@ -2,9 +2,9 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
-namespace GooglePaginationFramework
+namespace GooglePaginationFramework.Selenium
 {
-    public static class Browser
+    public static class Driver
     {
         //Initialize the webdriver
         static IWebDriver webDriver = new FirefoxDriver();
@@ -20,7 +20,7 @@ namespace GooglePaginationFramework
         {
             webDriver.Url = url;
         }
-        
+
         //The function is closing the browser
         public static void Close()
         {
