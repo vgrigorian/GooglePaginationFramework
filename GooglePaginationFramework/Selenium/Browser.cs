@@ -10,6 +10,9 @@ namespace GooglePaginationFramework.Selenium
         //Initialize the webdriver
         static IWebDriver webDriver = new FirefoxDriver();
 
+        /*//if can't find elements, try to wait 10 seconds for load 
+        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);*/
+
         static string Url = "https://www.google.com/intl/en/gmail/about/";
 
         private static string HomePageTitle = "Gmail - Free Storage and Email from Google";
