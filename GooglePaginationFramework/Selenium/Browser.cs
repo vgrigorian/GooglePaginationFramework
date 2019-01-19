@@ -58,7 +58,7 @@ namespace GooglePaginationFramework.Selenium
         {
             //Find the login field and enter the data
             var enterLogin = webDriver.FindElement(By.CssSelector("#identifierId"));
-            enterLogin.SendKeys("testmailcsharp99@gmail.com");
+            enterLogin.SendKeys("testmail);
 
             //Click "Next" button
             var nextButton = webDriver.FindElement(By.CssSelector("#identifierNext > content:nth-child(3)"));
@@ -68,7 +68,7 @@ namespace GooglePaginationFramework.Selenium
 
             //Fing password field and enter password
             var enterPassword = webDriver.FindElement(By.XPath("//div[@id='password']//input"));
-            enterPassword.SendKeys("NwmeJb235");
+            enterPassword.SendKeys("testpassword");
 
             //Click "Next" button
             var nextButton2 = webDriver.FindElement(By.CssSelector(".DL0QTb"));
